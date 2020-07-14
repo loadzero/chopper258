@@ -9,9 +9,9 @@ It has been translated from Pascal to C, and adapted to work with SDL2.
 The game is known to build and run on Ubuntu 18.04 and MacOSX El Capitan, and there is also
 a web port via emscripten.
 
-For more background on the project, see this blog article:
+For more background on the project, see this article:
 
-[https://blog.loadzero.com/](https://blog.loadzero.com/blog/si78c/)
+[https://blog.loadzero.com/blog/chopper258](https://blog.loadzero.com/blog/chopper258/)
 
 ## Credits
 
