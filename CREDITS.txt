@@ -1,0 +1,10 @@
+  Chopper Commando version 2.56 was written by Mark
+Currie in Turbo Pascal 5. I hope you enjoy the game.
+
+  Chopper Commando version 2.57 was written by Harvey
+Patterson in Turbo Pascal 5.5 using the source code
+from 2.56, with Mark Currie's permission.          
+
+  Chopper Commando version 2.58 was written by Jason
+McSweeney by translating the code from Pascal to C
+and published with Mark Currie's permission.

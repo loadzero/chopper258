@@ -1,0 +1,23 @@
+/* base/sound.c */
+static void reg_init(StableRegressor *r, int n);
+static int reg_qsize(StableRegressor *r);
+static int reg_n(StableRegressor *r);
+static int reg_mask(StableRegressor *r, int i);
+static void reg_push(StableRegressor *r, double x, double y);
+static double reg_mu(StableRegressor *r);
+static double reg_mean_x(StableRegressor *r);
+static double reg_mean_y(StableRegressor *r);
+static double reg_covxy(StableRegressor *r);
+static double reg_varx(StableRegressor *r);
+static _Bool reg_ready(StableRegressor *r);
+static double reg_slope(StableRegressor *r);
+static double reg_intercept(StableRegressor *r);
+void sound_init(void);
+void audio_callback(void *userdata, uint8_t *stream, int len);
+void set_freq(int freq);
+static void synth_buffer_push_back(SynthPoint p);
+static int synth_buffer_get_wavesamp(int64_t sample, SoundDebug *dbg);
+static int mask(int i);
+SynthPoint *qback(void);
+void trim(int pi);
+size_t qsize(void);
