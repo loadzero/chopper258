@@ -25,7 +25,7 @@ Thanks to Mark Currie for granting permission to publish this port of his game.
 
 To grab the code and build the binary, do this:
 
-    $ git clone https://github.com/loadzero/si78c.git && cd si78c
+    $ git clone https://github.com/loadzero/chopper258.git && cd chopper258
     $ make
 
 To run it:
